@@ -3,16 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <title>Document</title>
         <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
         <div class="lang">
-            <select name="language">
-                <option value="english"> English</option>
-                <option value="hindi"> Hindi</option>
-                <option value="gujarati"> Gujarati</option>
-            </select>
+            <i class="fa fa-globe" id="globe"></i>
+            <p class="language">English</p>
+            <i class="fa fa-angle-up"></i>
         </div>
         <p class="contact">Contact Us 800.444.2373 | Ouote List (0) | Login</p>
         <header class="navbar">
@@ -25,8 +25,11 @@
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
+                <div class="search">
+                    <i class="fa fa-search fa-lg" id="search"></i>
+                    <input class="sea" type="search" placeholder="Search">
+                </div>
             </div>
-            <input class="search" type="search" placeholder=" search">
         </header>
     </body>
 </html>

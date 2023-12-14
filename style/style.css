@@ -1,62 +1,74 @@
-body {
-    width: 100%;
-    margin: 0%;
-}
-
 .lang {
-    font-size: large;
     margin-left: 80px;
     border: none;
+    display: inline-block;
+}
+
+.language {
+    font-size: large;
+    margin: 2px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#globe {
+    color: rgb(213, 13, 13);
 }
 
 .contact {
+    margin: auto;
     font-size: large;
-    margin-top: -18px;
-    margin-left: 950px;
+    margin-left: 800px;
+    display: inline;
 }
 
 header {
-    height: 50px;
-    margin-top: -10px;
-    padding: 22px;
-    background-color: rgb(205, 24, 24);
+    margin-top: 2px;
+    padding: 15px;
+    background-color: rgb(213, 13, 13);
     color: white;
-}
-
-select {
-    width: 100px;
-    height: 25px;
 }
 
 span {
-    padding-bottom: 15px;
-    display: block;
+    padding-top: 5px;
+    float: left;
     font-size: 40px;
-}
-
-.menu {
-    margin-top: -65px;
-    margin-left: 480px;
+    margin: 0%;
 }
 
 ul {
+    display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     list-style-type: none;
+    margin-left: 280px;
 }
 
 ul li {
-    float: left;
+    display: inline-block;
 }
 
 ul li a {
-    margin-left: 28px;
+    margin-left: 40px;
     text-decoration: none;
     color: white;
-    display: block;
+    display: inline-block;
 }
 
 .search {
+    display: inline-block;
+    background-color: white;
     margin-left: 40px;
-    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.sea {
+    width: 200px;
+    font-size: 20px;
+    border: none;
+}
+
+#search {
+    color: rgb(114, 113, 113);
 }
